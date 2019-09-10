@@ -1,0 +1,240 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages,	
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"navigationBarShadow": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "static/font/navigationBar.ttf",
+							"text": "\ue883",
+							"float": "right",
+							"fontSize": "38upx",
+							"width": "90upx",
+							"color": "#666666"
+						},{
+							"fontSrc": "static/font/navigationBar.ttf",
+							"text": "\ue82e",
+							"float": "left",
+							"fontSize": "36upx",
+							"width": "90upx",
+							"color": "#666666"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/needs/needs",
+			"style": {
+				"navigationBarTitleText": "需求",
+				"enablePullDownRefresh": true,
+				"navigationBarShadow": {"colorType": "grey"},
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "static/font/navigationBar.ttf",
+							"text": "\ue883",
+							"float": "right",
+							"fontSize": "38upx",
+							"width": "90upx",
+							"color": "#666666"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "个人中心",				
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "static/font/navigationBar.ttf",
+							"text": "\ue883",
+							"float": "right",
+							"fontSize": "38upx",
+							"width": "90upx",
+							"color": "#666666"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/needsSubPage/addNeeds/addNeeds",
+			"style": {"navigationBarTitleText": "创建需求"}
+		}, {
+			"path": "pages/meSubPage/userInfo/userInfo",
+			"style": {"navigationBarTitleText": "个人信息"}
+		},{
+			"path" : "pages/meSubPage/chengePassword/chengePassword",
+			"style" : {"navigationBarTitleText": "修改密码"}
+		},{
+            "path" : "pages/meSubPage/myNeeds/myNeeds",
+            "style" : {
+				"navigationBarTitleText": "我的历史需求",
+				"enablePullDownRefresh": true
+			}
+        },{
+            "path" : "pages/meSubPage/mySave/mySave",
+            "style" : {"navigationBarTitleText": "我的收藏"}
+        },{
+            "path" : "pages/meSubPage/auth/auth",
+            "style" : {"navigationBarTitleText": "企业认证"}
+        },{
+			"path" : "pages/indexSubPage/article/article",
+			"style" : {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "static/font/navigationBar.ttf",
+							"text": "\ue814",
+							"float": "right",
+							"fontSize": "40upx",
+							"width": "90upx",
+							"color": "#666666"
+						}]
+					}
+				}
+			}
+		},{
+			"path" : "pages/needsSubPage/needsDetail/needsDetail",
+			"style" : {"navigationBarTitleText": "需求"}
+		},{
+            "path" : "pages/needsSubPage/selectIndustry/selectIndustry",
+            "style" : {
+				"navigationBarTitleText": "选择行业类型",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "确定",
+							"float": "right",
+							"fontSize": "32upx",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+        },{
+			"path" : "pages/indexSubPage/role/role",
+			"style" : {"navigationBarTitleText": "智库"}
+		},{
+            "path" : "pages/common/message/message",
+            "style" : {"navigationBarTitleText": "通知"}
+        },{
+            "path" : "pages/common/message_auth/message_auth",
+            "style" : {"navigationBarTitleText": "企业审核结果"}
+        },{
+            "path" : "pages/indexSubPage/search/search",
+            "style" : {
+				"app-plus": {
+					"titleNView": {
+						"searchInput":{
+							"autoFocus": true,
+							"align": "left",
+							"backgroundColor": "#F1F1F1",
+							"placeholder": "搜索你感兴趣的内容"
+						}
+					}
+				}
+			}
+        },{
+			"path" : "pages/sign/login/login",
+			"style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleView":false,
+					"titleNView": {
+						"buttons": [{
+							"text": "注册",
+							"float": "right",
+							"fontSize": "32upx",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+		},{
+            "path" : "pages/sign/signUp/signUp",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleView":false,
+					"titleNView": {
+						"buttons": [{
+							"text": "登录",
+							"float": "right",
+							"fontSize": "32upx",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+        },{
+            "path" : "pages/sign/getPwd/getPwd",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleView":false,
+					"titleNView": {
+						"buttons": [{
+							"text": "登录",
+							"float": "right",
+							"fontSize": "32upx",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+        },{
+            "path" : "pages/sign/loginCode/loginCode",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleView":false,
+					"titleNView": {
+						"buttons": [{
+							"text": "注册",
+							"float": "right",
+							"fontSize": "32upx",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#333333",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/common/home.png",
+			"selectedIconPath": "static/common/home-fill.png"
+		}, {
+			"pagePath": "pages/needs/needs",
+			"text": "需求",
+			"iconPath": "static/common/needs.png",
+			"selectedIconPath": "static/common/needs-fill.png"
+		}, {
+			"pagePath": "pages/me/me",
+			"text": "我的",
+			"iconPath": "static/common/me.png",
+			"selectedIconPath": "static/common/me-fill.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}
